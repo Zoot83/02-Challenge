@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*This is for the first part of the Company logo */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*This is for the change in the company logo that holds the second part of it*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* This is setting all the properties for the header */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* This is setting the style for the unordered list in the header */
+.header div ul {
+    list-style-type: none;
+}
+
+/* This is explaining how the display is for the list objects from the header.
+    By selecting the inline-block for the display it is going to show all the 
+    objects in the list inline and with evenly spaced margins. 
+*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* This is describing the text that the objects in the list will have. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Setting the font size of all the "p" throughout the webpage. */
+p {
+    font-size: 16px;
+}
+
+/* 
+    This is the background photo for the top of the page. It is setting all the 
+    properties of the box that contains it and the image that will be posted in it.
+    */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Causes the images to be displayed on the left side of the box */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Causes the images to be displayed on the right side of the box */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* 
+    This is the class content with the properties and settings being declared.  
+    Content the going to hold the 3 sections of the webpage that are where the links direct
+    the user. 
+*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*
+    This is the properties for all the children in the content class
+    Such as search-engine-optimization, online-reputation-management, social-media-marketing.
+*/
+.content div
+{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+
+.content img
+{
+    max-height:200px;
+}
+
+.content h2
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
+    The benefits are the section of the webpage that is located on the right hand
+    side. This is defining all the desired properties for the section that was created.
+*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom:32px;
+    color: white;
+}
+
+/*
+    Rather then having individual h3 i have combined them so that all the h3's in the
+    benefits section have the same margin and alignment. 
+*/
+.benefits h3
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+    Creating a call to all the images will ensure that they all share the same properties.
+    This was done rather then creating individual calls to each child in benefits image.
+*/
+.benefits img
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
